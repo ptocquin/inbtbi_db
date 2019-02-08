@@ -2,6 +2,8 @@
 
 # Historique
 
+## v0.3
+
 ## v0.2 (2019-02-07)
 - rlwrap config
 

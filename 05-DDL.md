@@ -1,7 +1,7 @@
 ---
 title: Bases de donnees - Conception & Utilisation
 author: Pierre Tocquin <ptocquin@uliege.be>
-date: Février 2018
+date: Février 2019
 ---
 
 # Data Definition Language (DML)
