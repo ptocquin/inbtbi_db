@@ -2,6 +2,9 @@
 
 # Historique
 
+## v0.5 (2019-02-14)
+- update SQLite tutoriel (suppression des codes bash)
+
 ## v0.4 (2019-02-13)
 - ajout R + SQLite tutoriel
 
