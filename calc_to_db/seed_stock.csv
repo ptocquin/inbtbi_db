@@ -1,0 +1,45 @@
+# Liste des stocks de graines
+# Leur origine peut être soit commerciale, soit le résultat d'une récolte dont la plante
+# source est référencée.
+Seed_ID	Genus	Species	Cultivar	Origin	Provider	Ref/Batch_ID	Parent_Plant_ID
+E.lat-000.001	Euphorbia	lathyris		Commerciale	www.seedaholic.com		
+E.tir-000.001	Euphorbia	tirucalli		Commerciale	http://stores.ebay.com/World-Wonders-Gardens		
+C.acu-000.001	Camptotheca	acuminata		Commerciale	http://b-and-t-world-seeds.com/		
+A.ann-000.001	Artemisa	annua		Commerciale	http://b-and-t-world-seeds.com/		
+E.lat-000.002	Euphorbia	lathyris		Commerciale	www.plant-world-seeds.com		
+E.hel-000.001	Euphorbia	helioscopia		Commerciale	http://b-and-t-world-seeds.com/	15461	
+E.hir-000.001	Euphorbia	hirta		Commerciale	www.FairDinkumSeeds.com		
+E.pep-000.001	Euphorbia	peplus		Commerciale	www.FairDinkumSeeds.com		
+E.pep-000.002	Euphorbia	peplus		Commerciale	http://www.befr.ebay.be/usr/bodyplantsaus		
+J.cur-000.001	Jatropha	curcas		Commerciale	strictlymedicinalseeds.com	8214	
+E.lat-000.003	Euphorbia	lathyris		Commerciale	strictlymedicinalseeds.com	9344	
+E.pep-000.003	Euphorbia	peplus		Commerciale	www.allrareherbs.com.au	270318	
+E.tir-000.002	Euphorbia	tirucalli		Commerciale	http://b-and-t-world-seeds.com/	401364	
+E.pep-000.004	Euphorbia	peplus		Commerciale	http://b-and-t-world-seeds.com/	86390	
+E.lat-000.004	Euphorbia	lathyris		Commerciale	http://b-and-t-world-seeds.com/	1035	
+E.hir-000.002	Euphorbia	hirta		ULG-Bota-B22	Plant'HP	E.hi.002	hi.2.3.e
+E.hir-000.003	Euphorbia	hirta		ULG-Bota-B22	Plant'HP	E.hi.002	hi.2.3.e
+E.hir-000.004	Euphorbia	hirta		ULG-Bota-B22	Plant'HP	E.hi.002	hi.2.3.e
+E.hir-000.005	Euphorbia	hirta		ULG-Bota-B22	Plant'HP	E.hi.002	hi.2.3.e
+E.hir-000.006	Euphorbia	hirta		ULG-Bota-B22	Plant'HP	E.hi.002	hi.2.x.x
+E.pep-000.005	Euphorbia	peplus		ULG-Bota-B22	Plant'HP	E.pe.001	pe.1.2.e
+E.pep-000.006	Euphorbia	peplus		ULG-Bota-B22	Plant'HP	E.pe.001	pe.1.x.x
+E.hel-000.002	Euphorbia	« helioscopia »		ULG-Bota-B22	Plant'HP	E.he.002	he.2.2.c
+E.hel-000.003	Euphorbia	« helioscopia »		ULG-Bota-B22	Plant'HP	E.he.002	he.2.3.d
+E.myr-000.001	Euphorbia	myrsinites		Commerciale	http://b-and-t-world-seeds.com/	1068	
+E.pol-000.001	Euphorbia	polychroma		Commerciale	http://b-and-t-world-seeds.com/	1071	
+E.pla-000.001	Euphorbia	platyphyllos		Commerciale	http://b-and-t-world-seeds.com/	66645	
+E.str-000.001	Euphorbia	stricta	 Golden Foam	Commerciale	http://b-and-t-world-seeds.com/	438115	
+E.lat-000.005	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.1.1.x
+E.lat-000.006	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.1.2.x
+E.mar-000.001	Euphorbia	marginata		Commerciale	http://b-and-t-world-seeds.com/	31948	
+E.cyp-000.001	Euphorbia	cyparissias		Commercialce	http://b-and-t-world-seeds.com/	13693	
+E.pep-000.007	Euphorbia	peplus		ULG-Bota-B22	Plant'HP		Pe.10.2.x
+E.lat-000.007	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.3.3.2-5-6
+E.lat-000.008	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.3.3.7-9-11
+E.lat-000.009	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.3.5.1-2-3
+E.lat-000.010	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.3.5.10-12
+E.lat-000.011	Euphorbia	lathyris		ULG-Bota-B22	Plant'HP		la.3.5.13-15
+E.lat-000.012	Euphorbia	lathyris		Particulier	M. Cuisenaire		
+E.lat-000.013	Euphorbia	lathyris		Particulier	M. Cuisenaire		
+E.pep-000.008	Euphorbia	peplus		ULG-Bota-B22	Plant'HP		Pe.10.2.x
