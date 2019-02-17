@@ -1,0 +1,673 @@
+# Liste des plantes (individus) utlisés dans les expériences
+# Chaque plante est reliée à un stock, une expérience et un traitement (modalité expériementale) de cette expérience.
+# Chacune de ces modalités se définit par les facteurs expérimentaux qui la compose.
+# Cette table contient énormément de redondances !!! Simplifiez cela !
+# La manière dont les identifiants sont construits est également lourde, voire problématique; simplifiez cela !
+Plant_ID	Exp_ID	Seed_ID	Species	Cultivar	Treatment_Nr	Plant_Nr	Exp_Treatment_ID	Factor1	Level_Factor1	Unit_Factor1	Factor2	Level_Factor2	Unit_Factor2	Factor3	Level_Factor3	Unit_Factor3	Factor4	Level_Factor4	Unit_Factor4
+La.1.2.1	E.La.1	E.la-000.001	Lathyris		2	1	E.La.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Ti.1.1.a	E.Ti.1	E.ti-000.001	Tirucalli		1	a	E.Ti.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Ti.1.1.b	E.Ti.1	E.ti-000.001	Tirucalli		1	b	E.Ti.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Ti.1.1.c	E.Ti.1	E.ti-000.001	Tirucalli		1	c	E.Ti.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Ti.1.2.a	E.Ti.1	E.ti-000.001	Tirucalli		2	a	E.Ti.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Ti.1.2.b	E.Ti.1	E.ti-000.001	Tirucalli		2	b	E.Ti.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Ti.1.2.c	E.Ti.1	E.ti-000.001	Tirucalli		2	c	E.Ti.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.1.a	E.Pe.1	E.pe-000.001	Peplus		1	a	E.Pe.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.1.b	E.Pe.1	E.pe-000.001	Peplus		1	b	E.Pe.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.1.c	E.Pe.1	E.pe-000.001	Peplus		1	c	E.Pe.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.1.d	E.Pe.1	E.pe-000.001	Peplus		1	d	E.Pe.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.1.e	E.Pe.1	E.pe-000.001	Peplus		1	e	E.Pe.1.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.2.a	E.Pe.1	E.pe-000.001	Peplus		2	a	E.Pe.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.2.b	E.Pe.1	E.pe-000.001	Peplus		2	b	E.Pe.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.2.c	E.Pe.1	E.pe-000.001	Peplus		2	c	E.Pe.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.2.d	E.Pe.1	E.pe-000.001	Peplus		2	d	E.Pe.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.2.e	E.Pe.1	E.pe-000.001	Peplus		2	e	E.Pe.1.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.3.a	E.Pe.1	E.pe-000.001	Peplus		3	a	E.Pe.1.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.3.b	E.Pe.1	E.pe-000.001	Peplus		3	b	E.Pe.1.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.3.c	E.Pe.1	E.pe-000.001	Peplus		3	c	E.Pe.1.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.3.d	E.Pe.1	E.pe-000.001	Peplus		3	d	E.Pe.1.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+Pe.1.3.e	E.Pe.1	E.pe-000.001	Peplus		3	e	E.Pe.1.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+Hi.2.1.a	E.Hi.2	E.hi-000.001	Hirta		1	a	E.Hi.2.1	OsmocoteConc	1	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.1.b	E.Hi.2	E.hi-000.001	Hirta		1	b	E.Hi.2.1	OsmocoteConc	1	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.1.c	E.Hi.2	E.hi-000.001	Hirta		1	c	E.Hi.2.1	OsmocoteConc	1	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.1.d	E.Hi.2	E.hi-000.001	Hirta		1	d	E.Hi.2.1	OsmocoteConc	1	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.1.e	E.Hi.2	E.hi-000.001	Hirta		1	e	E.Hi.2.1	OsmocoteConc	1	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.2.a	E.Hi.2	E.hi-000.001	Hirta		2	a	E.Hi.2.2	OsmocoteConc	3	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.2.b	E.Hi.2	E.hi-000.001	Hirta		2	b	E.Hi.2.2	OsmocoteConc	3	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.2.c	E.Hi.2	E.hi-000.001	Hirta		2	c	E.Hi.2.2	OsmocoteConc	3	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.2.d	E.Hi.2	E.hi-000.001	Hirta		2	d	E.Hi.2.2	OsmocoteConc	3	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.2.e	E.Hi.2	E.hi-000.001	Hirta		2	e	E.Hi.2.2	OsmocoteConc	3	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.3.a	E.Hi.2	E.hi-000.001	Hirta		3	a	E.Hi.2.3	OsmocoteConc	6	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.3.b	E.Hi.2	E.hi-000.001	Hirta		3	b	E.Hi.2.3	OsmocoteConc	6	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.3.c	E.Hi.2	E.hi-000.001	Hirta		3	c	E.Hi.2.3	OsmocoteConc	6	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.3.d	E.Hi.2	E.hi-000.001	Hirta		3	d	E.Hi.2.3	OsmocoteConc	6	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.3.e	E.Hi.2	E.hi-000.001	Hirta		3	e	E.Hi.2.3	OsmocoteConc	6	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.4.a	E.Hi.2	E.hi-000.001	Hirta		4	a	E.Hi.2.4	OsmocoteConc	12	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.4.b	E.Hi.2	E.hi-000.001	Hirta		4	b	E.Hi.2.4	OsmocoteConc	12	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.4.c	E.Hi.2	E.hi-000.001	Hirta		4	c	E.Hi.2.4	OsmocoteConc	12	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.4.d	E.Hi.2	E.hi-000.001	Hirta		4	d	E.Hi.2.4	OsmocoteConc	12	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+Hi.2.4.e	E.Hi.2	E.hi-000.001	Hirta		4	e	E.Hi.2.4	OsmocoteConc	12	gr/L	Substrat	Bril+Argex (4+1)	0	0	0	0	0	0	0
+He.2.1.a	E.He.2	E.he-000.001	Helioscopia		1	a	E.He.2.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+He.2.1.b	E.He.2	E.he-000.001	Helioscopia		1	b	E.He.2.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+He.2.1.c	E.He.2	E.he-000.001	Helioscopia		1	c	E.He.2.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+He.2.1.d	E.He.2	E.he-000.001	Helioscopia		1	d	E.He.2.1	OsmocoteConc	1	gr/L	0	0	0	0	0	0	0	0	0
+He.2.2.a	E.He.2	E.he-000.001	Helioscopia		2	a	E.He.2.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+He.2.2.b	E.He.2	E.he-000.001	Helioscopia		2	b	E.He.2.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+He.2.2.c	E.He.2	E.he-000.001	Helioscopia		2	c	E.He.2.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+He.2.2.d	E.He.2	E.he-000.001	Helioscopia		2	d	E.He.2.2	OsmocoteConc	3	gr/L	0	0	0	0	0	0	0	0	0
+He.2.3.a	E.He.2	E.he-000.001	Helioscopia		3	a	E.He.2.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+He.2.3.b	E.He.2	E.he-000.001	Helioscopia		3	b	E.He.2.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+He.2.3.c	E.He.2	E.he-000.001	Helioscopia		3	c	E.He.2.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+He.2.3.d	E.He.2	E.he-000.001	Helioscopia		3	d	E.He.2.3	OsmocoteConc	6	gr/L	0	0	0	0	0	0	0	0	0
+sp.1.2.1	E.sp.1	NA	Hirta		2	1	E.sp.1.2	Espèce	Hirta	0	Solution	Hoagland1/2	0	Plants-mère	Hi.2.1.a-2.c-3.b-4.a-5.c	0	0	0	0
+sp.1.6.1	E.sp.1	NA	Peplus		6	1	E.sp.1.6	Espèce	Peplus	0	Solution	Eau_de_ville	0	Plants-mère	Pe.2.1.b-2.b-2.c-3.a-3.e	0	0	0	0
+sp.1.7.1	E.sp.1	NA	Peplus		7	1	E.sp.1.7	Espèce	Peplus	0	Solution	Hoagland1/2	0	Plants-mère	Pe.2.1.b-2.b-2.c-3.a-3.e	0	0	0	0
+sp.1.11.1	E.sp.1	NA	Helioscopia		11	1	E.sp.1.11	Espèce	Helioscopia	0	Solution	Eau_de_ville	0	Plants-mère	He.2.1.c-2.a-2.d-3.b-3.c	0	0	0	0
+sp.1.12.1	E.sp.1	NA	Helioscopia		12	1	E.sp.1.12	Espèce	Helioscopia	0	Solution	Hoagland1/2	0	Plants-mère	He.2.1.c-2.a-2.d-3.b-3.c	0	0	0	0
+Cu.2.2.1	J.Cu.2	J.cur-000.001	Curcas		2	1	J.Cu.2.2	Traitement sur graines	Craquées	0	0	0	0	0	0	0	0	0	0
+Pe.3.1.1	E.Pe.3	E.pep-000.001	Peplus		1	1	E.Pe.3.1	SeedSource	E.pep-000.001	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.1.2	E.Pe.3	E.pep-000.001	Peplus		1	2	E.Pe.3.1	SeedSource	E.pep-000.001	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.1.3	E.Pe.3	E.pep-000.001	Peplus		1	3	E.Pe.3.1	SeedSource	E.pep-000.001	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.1.4	E.Pe.3	E.pep-000.001	Peplus		1	4	E.Pe.3.1	SeedSource	E.pep-000.001	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.1.5	E.Pe.3	E.pep-000.001	Peplus		1	5	E.Pe.3.1	SeedSource	E.pep-000.001	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.2.1	E.Pe.3	E.pep-000.002	Peplus		2	1	E.Pe.3.2	SeedSource	E.pep-000.002	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.2.2	E.Pe.3	E.pep-000.002	Peplus		2	2	E.Pe.3.2	SeedSource	E.pep-000.002	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.2.3	E.Pe.3	E.pep-000.002	Peplus		2	3	E.Pe.3.2	SeedSource	E.pep-000.002	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.2.4	E.Pe.3	E.pep-000.002	Peplus		2	4	E.Pe.3.2	SeedSource	E.pep-000.002	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.2.5	E.Pe.3	E.pep-000.002	Peplus		2	5	E.Pe.3.2	SeedSource	E.pep-000.002	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.3.1	E.Pe.3	E.pep-000.004	Peplus		3	1	E.Pe.3.3	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.3.2	E.Pe.3	E.pep-000.004	Peplus		3	2	E.Pe.3.3	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.3.3	E.Pe.3	E.pep-000.004	Peplus		3	3	E.Pe.3.3	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.3.4	E.Pe.3	E.pep-000.004	Peplus		3	4	E.Pe.3.3	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.3.5	E.Pe.3	E.pep-000.004	Peplus		3	5	E.Pe.3.3	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Std.8-9M	0	0	0	0	0	0	0
+Pe.3.4.1	E.Pe.3	E.pep-000.004	Peplus		4	1	E.Pe.3.4	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Bloom	0	0	0	0	0	0	0
+Pe.3.4.2	E.Pe.3	E.pep-000.004	Peplus		4	2	E.Pe.3.4	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Bloom	0	0	0	0	0	0	0
+Pe.3.4.3	E.Pe.3	E.pep-000.004	Peplus		4	3	E.Pe.3.4	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Bloom	0	0	0	0	0	0	0
+Pe.3.4.4	E.Pe.3	E.pep-000.004	Peplus		4	4	E.Pe.3.4	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Bloom	0	0	0	0	0	0	0
+Pe.3.4.5	E.Pe.3	E.pep-000.004	Peplus		4	5	E.Pe.3.4	SeedSource	E.pep-000.004	0	Fertiliser	Osmocote.Bloom	0	0	0	0	0	0	0
+La.3.1.1	E.La.3	E.lat-000.002	Lathyris		1	1	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.2	E.La.3	E.lat-000.002	Lathyris		1	2	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.3	E.La.3	E.lat-000.002	Lathyris		1	3	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.4	E.La.3	E.lat-000.002	Lathyris		1	4	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.5	E.La.3	E.lat-000.002	Lathyris		1	5	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.6	E.La.3	E.lat-000.002	Lathyris		1	6	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.7	E.La.3	E.lat-000.003	Lathyris		1	7	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.8	E.La.3	E.lat-000.003	Lathyris		1	8	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.9	E.La.3	E.lat-000.003	Lathyris		1	9	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.10	E.La.3	E.lat-000.003	Lathyris		1	10	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.11	E.La.3	E.lat-000.003	Lathyris		1	11	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.12	E.La.3	E.lat-000.003	Lathyris		1	12	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.13	E.La.3	E.lat-000.004	Lathyris		1	13	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.14	E.La.3	E.lat-000.004	Lathyris		1	14	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.1.15	E.La.3	E.lat-000.004	Lathyris		1	15	E.La.3.1	VernalStart	0	days	VernalisationDuration	0	days	0	0	0	0	0	0
+La.3.2.1	E.La.3	E.lat-000.002	Lathyris		2	1	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.2	E.La.3	E.lat-000.002	Lathyris		2	2	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.3	E.La.3	E.lat-000.002	Lathyris		2	3	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.4	E.La.3	E.lat-000.002	Lathyris		2	4	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.5	E.La.3	E.lat-000.002	Lathyris		2	5	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.6	E.La.3	E.lat-000.002	Lathyris		2	6	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.7	E.La.3	E.lat-000.003	Lathyris		2	7	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.8	E.La.3	E.lat-000.003	Lathyris		2	8	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.9	E.La.3	E.lat-000.003	Lathyris		2	9	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.10	E.La.3	E.lat-000.003	Lathyris		2	10	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.11	E.La.3	E.lat-000.003	Lathyris		2	11	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.12	E.La.3	E.lat-000.003	Lathyris		2	12	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.13	E.La.3	E.lat-000.004	Lathyris		2	13	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.14	E.La.3	E.lat-000.004	Lathyris		2	14	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.2.15	E.La.3	E.lat-000.004	Lathyris		2	15	E.La.3.2	VernalStart	28	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.3.1	E.La.3	E.lat-000.002	Lathyris		3	1	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.2	E.La.3	E.lat-000.002	Lathyris		3	2	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.3	E.La.3	E.lat-000.002	Lathyris		3	3	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.4	E.La.3	E.lat-000.002	Lathyris		3	4	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.5	E.La.3	E.lat-000.002	Lathyris		3	5	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.6	E.La.3	E.lat-000.002	Lathyris		3	6	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.7	E.La.3	E.lat-000.003	Lathyris		3	7	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.8	E.La.3	E.lat-000.003	Lathyris		3	8	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.9	E.La.3	E.lat-000.003	Lathyris		3	9	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.10	E.La.3	E.lat-000.003	Lathyris		3	10	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.11	E.La.3	E.lat-000.003	Lathyris		3	11	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.12	E.La.3	E.lat-000.003	Lathyris		3	12	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.13	E.La.3	E.lat-000.004	Lathyris		3	13	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.14	E.La.3	E.lat-000.004	Lathyris		3	14	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.3.15	E.La.3	E.lat-000.004	Lathyris		3	15	E.La.3.3	VernalStart	28	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.4.1	E.La.3	E.lat-000.002	Lathyris		4	1	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.2	E.La.3	E.lat-000.002	Lathyris		4	2	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.3	E.La.3	E.lat-000.002	Lathyris		4	3	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.4	E.La.3	E.lat-000.002	Lathyris		4	4	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.5	E.La.3	E.lat-000.002	Lathyris		4	5	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.6	E.La.3	E.lat-000.002	Lathyris		4	6	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.7	E.La.3	E.lat-000.003	Lathyris		4	7	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.8	E.La.3	E.lat-000.003	Lathyris		4	8	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.9	E.La.3	E.lat-000.003	Lathyris		4	9	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.10	E.La.3	E.lat-000.003	Lathyris		4	10	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.11	E.La.3	E.lat-000.003	Lathyris		4	11	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.12	E.La.3	E.lat-000.003	Lathyris		4	12	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.13	E.La.3	E.lat-000.004	Lathyris		4	13	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.14	E.La.3	E.lat-000.004	Lathyris		4	14	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.4.15	E.La.3	E.lat-000.004	Lathyris		4	15	E.La.3.4	VernalStart	56	days	VernalisationDuration	30	days	0	0	0	0	0	0
+La.3.5.1	E.La.3	E.lat-000.002	Lathyris		5	1	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.2	E.La.3	E.lat-000.002	Lathyris		5	2	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.3	E.La.3	E.lat-000.002	Lathyris		5	3	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.4	E.La.3	E.lat-000.002	Lathyris		5	4	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.5	E.La.3	E.lat-000.002	Lathyris		5	5	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.6	E.La.3	E.lat-000.002	Lathyris		5	6	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.7	E.La.3	E.lat-000.003	Lathyris		5	7	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.8	E.La.3	E.lat-000.003	Lathyris		5	8	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.9	E.La.3	E.lat-000.003	Lathyris		5	9	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.10	E.La.3	E.lat-000.003	Lathyris		5	10	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.11	E.La.3	E.lat-000.003	Lathyris		5	11	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.12	E.La.3	E.lat-000.003	Lathyris		5	12	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.13	E.La.3	E.lat-000.004	Lathyris		5	13	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.14	E.La.3	E.lat-000.004	Lathyris		5	14	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+La.3.5.15	E.La.3	E.lat-000.004	Lathyris		5	15	E.La.3.5	VernalStart	56	days	VernalisationDuration	60	days	0	0	0	0	0	0
+Hi.3.1.1	E.Hi.3	E.hir-000.001	Hirta		1	1	E.Hi.3.1	Location	G2	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.1.2	E.Hi.3	E.hir-000.001	Hirta		1	2	E.Hi.3.1	Location	G2	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.1.3	E.Hi.3	E.hir-000.001	Hirta		1	3	E.Hi.3.1	Location	G2	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.1.4	E.Hi.3	E.hir-000.001	Hirta		1	4	E.Hi.3.1	Location	G2	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.1.5	E.Hi.3	E.hir-000.001	Hirta		1	5	E.Hi.3.1	Location	G2	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.2.1	E.Hi.3	E.hir-000.001	Hirta		2	1	E.Hi.3.2	Location	G2	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.2.2	E.Hi.3	E.hir-000.001	Hirta		2	2	E.Hi.3.2	Location	G2	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.2.3	E.Hi.3	E.hir-000.001	Hirta		2	3	E.Hi.3.2	Location	G2	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.2.4	E.Hi.3	E.hir-000.001	Hirta		2	4	E.Hi.3.2	Location	G2	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.2.5	E.Hi.3	E.hir-000.001	Hirta		2	5	E.Hi.3.2	Location	G2	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.3.1	E.Hi.3	E.hir-000.001	Hirta		3	1	E.Hi.3.3	Location	G2	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.3.2	E.Hi.3	E.hir-000.001	Hirta		3	2	E.Hi.3.3	Location	G2	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.3.3	E.Hi.3	E.hir-000.001	Hirta		3	3	E.Hi.3.3	Location	G2	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.3.4	E.Hi.3	E.hir-000.001	Hirta		3	4	E.Hi.3.3	Location	G2	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.3.5	E.Hi.3	E.hir-000.001	Hirta		3	5	E.Hi.3.3	Location	G2	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.4.1	E.Hi.3	E.hir-000.001	Hirta		4	1	E.Hi.3.4	Location	G2	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.4.2	E.Hi.3	E.hir-000.001	Hirta		4	2	E.Hi.3.4	Location	G2	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.4.3	E.Hi.3	E.hir-000.001	Hirta		4	3	E.Hi.3.4	Location	G2	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.4.4	E.Hi.3	E.hir-000.001	Hirta		4	4	E.Hi.3.4	Location	G2	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.4.5	E.Hi.3	E.hir-000.001	Hirta		4	5	E.Hi.3.4	Location	G2	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.5.1	E.Hi.3	E.hir-000.001	Hirta		5	1	E.Hi.3.5	Location	S0/227	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.5.2	E.Hi.3	E.hir-000.001	Hirta		5	2	E.Hi.3.5	Location	S0/227	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.5.3	E.Hi.3	E.hir-000.001	Hirta		5	3	E.Hi.3.5	Location	S0/227	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.5.4	E.Hi.3	E.hir-000.001	Hirta		5	4	E.Hi.3.5	Location	S0/227	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.5.5	E.Hi.3	E.hir-000.001	Hirta		5	5	E.Hi.3.5	Location	S0/227	0	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.3.6.1	E.Hi.3	E.hir-000.001	Hirta		6	1	E.Hi.3.6	Location	S0/227	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.6.2	E.Hi.3	E.hir-000.001	Hirta		6	2	E.Hi.3.6	Location	S0/227	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.6.3	E.Hi.3	E.hir-000.001	Hirta		6	3	E.Hi.3.6	Location	S0/227	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.6.4	E.Hi.3	E.hir-000.001	Hirta		6	4	E.Hi.3.6	Location	S0/227	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.6.5	E.Hi.3	E.hir-000.001	Hirta		6	5	E.Hi.3.6	Location	S0/227	0	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.3.7.1	E.Hi.3	E.hir-000.001	Hirta		7	1	E.Hi.3.7	Location	S0/227	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.7.2	E.Hi.3	E.hir-000.001	Hirta		7	2	E.Hi.3.7	Location	S0/227	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.7.3	E.Hi.3	E.hir-000.001	Hirta		7	3	E.Hi.3.7	Location	S0/227	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.7.4	E.Hi.3	E.hir-000.001	Hirta		7	4	E.Hi.3.7	Location	S0/227	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.7.5	E.Hi.3	E.hir-000.001	Hirta		7	5	E.Hi.3.7	Location	S0/227	0	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.3.8.1	E.Hi.3	E.hir-000.001	Hirta		8	1	E.Hi.3.8	Location	S0/227	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.8.2	E.Hi.3	E.hir-000.001	Hirta		8	2	E.Hi.3.8	Location	S0/227	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.8.3	E.Hi.3	E.hir-000.001	Hirta		8	3	E.Hi.3.8	Location	S0/227	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.8.4	E.Hi.3	E.hir-000.001	Hirta		8	4	E.Hi.3.8	Location	S0/227	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.3.8.5	E.Hi.3	E.hir-000.001	Hirta		8	5	E.Hi.3.8	Location	S0/227	0	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.4.5.1	E.Hi.4	E.hir-000.001	Hirta		5	1	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.2	E.Hi.4	E.hir-000.001	Hirta		5	2	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.3	E.Hi.4	E.hir-000.001	Hirta		5	3	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.4	E.Hi.4	E.hir-000.001	Hirta		5	4	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.5	E.Hi.4	E.hir-000.001	Hirta		5	5	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.6	E.Hi.4	E.hir-000.001	Hirta		5	6	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.7	E.Hi.4	E.hir-000.001	Hirta		5	7	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.8	E.Hi.4	E.hir-000.001	Hirta		5	8	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.9	E.Hi.4	E.hir-000.001	Hirta		5	9	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.4.5.10	E.Hi.4	E.hir-000.001	Hirta		5	10	E.Hi.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.1	E.Pe.4	E.pep-000.001	Peplus		5	1	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.2	E.Pe.4	E.pep-000.001	Peplus		5	2	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.3	E.Pe.4	E.pep-000.001	Peplus		5	3	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.4	E.Pe.4	E.pep-000.001	Peplus		5	4	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.5	E.Pe.4	E.pep-000.001	Peplus		5	5	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.6	E.Pe.4	E.pep-000.001	Peplus		5	6	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.7	E.Pe.4	E.pep-000.001	Peplus		5	7	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.8	E.Pe.4	E.pep-000.001	Peplus		5	8	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.9	E.Pe.4	E.pep-000.001	Peplus		5	9	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Pe.4.5.10	E.Pe.4	E.pep-000.001	Peplus		5	10	E.Pe.4.5	Fertiliser	Osmocote	0	0	0	0	0	0	0	0	0	0
+Hi.5.1.1	E.Hi.5		Hirta		1	1	E.Hi.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.1.2	E.Hi.5		Hirta		1	2	E.Hi.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.1.3	E.Hi.5		Hirta		1	3	E.Hi.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.1.4	E.Hi.5		Hirta		1	4	E.Hi.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.1.5	E.Hi.5		Hirta		1	5	E.Hi.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.2.1	E.Hi.5		Hirta		2	1	E.Hi.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.2.2	E.Hi.5		Hirta		2	2	E.Hi.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.2.3	E.Hi.5		Hirta		2	3	E.Hi.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.2.4	E.Hi.5		Hirta		2	4	E.Hi.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.2.5	E.Hi.5		Hirta		2	5	E.Hi.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.3.1	E.Hi.5		Hirta		3	1	E.Hi.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.3.2	E.Hi.5		Hirta		3	2	E.Hi.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.3.3	E.Hi.5		Hirta		3	3	E.Hi.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.3.4	E.Hi.5		Hirta		3	4	E.Hi.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.3.5	E.Hi.5		Hirta		3	5	E.Hi.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.4.1	E.Hi.5		Hirta		4	1	E.Hi.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.4.2	E.Hi.5		Hirta		4	2	E.Hi.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.4.3	E.Hi.5		Hirta		4	3	E.Hi.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.4.4	E.Hi.5		Hirta		4	4	E.Hi.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.4.5	E.Hi.5		Hirta		4	5	E.Hi.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.5.1	E.Hi.5		Hirta		5	1	E.Hi.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.5.2	E.Hi.5		Hirta		5	2	E.Hi.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.5.3	E.Hi.5		Hirta		5	3	E.Hi.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.5.4	E.Hi.5		Hirta		5	4	E.Hi.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.5.5	E.Hi.5		Hirta		5	5	E.Hi.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.6.1	E.Hi.5		Hirta		6	1	E.Hi.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.6.2	E.Hi.5		Hirta		6	2	E.Hi.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.6.3	E.Hi.5		Hirta		6	3	E.Hi.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.6.4	E.Hi.5		Hirta		6	4	E.Hi.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.6.5	E.Hi.5		Hirta		6	5	E.Hi.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Hi.5.7.1	E.Hi.5		Hirta		7	1	E.Hi.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.7.2	E.Hi.5		Hirta		7	2	E.Hi.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.7.3	E.Hi.5		Hirta		7	3	E.Hi.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.7.4	E.Hi.5		Hirta		7	4	E.Hi.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.7.5	E.Hi.5		Hirta		7	5	E.Hi.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Hi.5.8.1	E.Hi.5		Hirta		8	1	E.Hi.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.8.2	E.Hi.5		Hirta		8	2	E.Hi.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.8.3	E.Hi.5		Hirta		8	3	E.Hi.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.8.4	E.Hi.5		Hirta		8	4	E.Hi.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.8.5	E.Hi.5		Hirta		8	5	E.Hi.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Hi.5.9.1	E.Hi.5		Hirta		9	1	E.Hi.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.9.2	E.Hi.5		Hirta		9	2	E.Hi.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.9.3	E.Hi.5		Hirta		9	3	E.Hi.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.9.4	E.Hi.5		Hirta		9	4	E.Hi.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.9.5	E.Hi.5		Hirta		9	5	E.Hi.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Hi.5.10.1	E.Hi.5		Hirta		10	1	E.Hi.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.10.2	E.Hi.5		Hirta		10	2	E.Hi.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.10.3	E.Hi.5		Hirta		10	3	E.Hi.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.10.4	E.Hi.5		Hirta		10	4	E.Hi.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Hi.5.10.5	E.Hi.5		Hirta		10	5	E.Hi.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.1.1	E.Pe.5		Peplus		1	1	E.Pe.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.1.2	E.Pe.5		Peplus		1	2	E.Pe.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.1.3	E.Pe.5		Peplus		1	3	E.Pe.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.1.4	E.Pe.5		Peplus		1	4	E.Pe.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.1.5	E.Pe.5		Peplus		1	5	E.Pe.5.1	Photoperiod	12	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.2.1	E.Pe.5		Peplus		2	1	E.Pe.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.2.2	E.Pe.5		Peplus		2	2	E.Pe.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.2.3	E.Pe.5		Peplus		2	3	E.Pe.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.2.4	E.Pe.5		Peplus		2	4	E.Pe.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.2.5	E.Pe.5		Peplus		2	5	E.Pe.5.2	Photoperiod	12	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.3.1	E.Pe.5		Peplus		3	1	E.Pe.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.3.2	E.Pe.5		Peplus		3	2	E.Pe.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.3.3	E.Pe.5		Peplus		3	3	E.Pe.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.3.4	E.Pe.5		Peplus		3	4	E.Pe.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.3.5	E.Pe.5		Peplus		3	5	E.Pe.5.3	Photoperiod	12	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.4.1	E.Pe.5		Peplus		4	1	E.Pe.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.4.2	E.Pe.5		Peplus		4	2	E.Pe.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.4.3	E.Pe.5		Peplus		4	3	E.Pe.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.4.4	E.Pe.5		Peplus		4	4	E.Pe.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.4.5	E.Pe.5		Peplus		4	5	E.Pe.5.4	Photoperiod	12	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.5.1	E.Pe.5		Peplus		5	1	E.Pe.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.5.2	E.Pe.5		Peplus		5	2	E.Pe.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.5.3	E.Pe.5		Peplus		5	3	E.Pe.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.5.4	E.Pe.5		Peplus		5	4	E.Pe.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.5.5	E.Pe.5		Peplus		5	5	E.Pe.5.5	Photoperiod	12	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.6.1	E.Pe.5		Peplus		6	1	E.Pe.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.6.2	E.Pe.5		Peplus		6	2	E.Pe.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.6.3	E.Pe.5		Peplus		6	3	E.Pe.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.6.4	E.Pe.5		Peplus		6	4	E.Pe.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.6.5	E.Pe.5		Peplus		6	5	E.Pe.5.6	Photoperiod	16	h	OsmocoteConc.	0	gr/L	0	0	0	0	0	0
+Pe.5.7.1	E.Pe.5		Peplus		7	1	E.Pe.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.7.2	E.Pe.5		Peplus		7	2	E.Pe.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.7.3	E.Pe.5		Peplus		7	3	E.Pe.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.7.4	E.Pe.5		Peplus		7	4	E.Pe.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.7.5	E.Pe.5		Peplus		7	5	E.Pe.5.7	Photoperiod	16	h	OsmocoteConc.	3	gr/L	0	0	0	0	0	0
+Pe.5.8.1	E.Pe.5		Peplus		8	1	E.Pe.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.8.2	E.Pe.5		Peplus		8	2	E.Pe.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.8.3	E.Pe.5		Peplus		8	3	E.Pe.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.8.4	E.Pe.5		Peplus		8	4	E.Pe.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.8.5	E.Pe.5		Peplus		8	5	E.Pe.5.8	Photoperiod	16	h	OsmocoteConc.	6	gr/L	0	0	0	0	0	0
+Pe.5.9.1	E.Pe.5		Peplus		9	1	E.Pe.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.9.2	E.Pe.5		Peplus		9	2	E.Pe.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.9.3	E.Pe.5		Peplus		9	3	E.Pe.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.9.4	E.Pe.5		Peplus		9	4	E.Pe.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.9.5	E.Pe.5		Peplus		9	5	E.Pe.5.9	Photoperiod	16	h	OsmocoteConc.	12	gr/L	0	0	0	0	0	0
+Pe.5.10.1	E.Pe.5		Peplus		10	1	E.Pe.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.10.2	E.Pe.5		Peplus		10	2	E.Pe.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.10.3	E.Pe.5		Peplus		10	3	E.Pe.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.10.4	E.Pe.5		Peplus		10	4	E.Pe.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+Pe.5.10.5	E.Pe.5		Peplus		10	5	E.Pe.5.10	Photoperiod	16	h	OsmocoteConc.	24	gr/L	0	0	0	0	0	0
+My.1.1.1	E.My.1		Myrsinites		1	1	E.My.1.1	0	0	0	0	0	0	0	0	0	0	0	0
+Pe.8.1.1	E.Pe.8	E.pep-000.006	Peplus		1	1	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.2	E.Pe.8	E.pep-000.006	Peplus		1	2	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.3	E.Pe.8	E.pep-000.006	Peplus		1	3	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.4	E.Pe.8	E.pep-000.006	Peplus		1	4	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.5	E.Pe.8	E.pep-000.006	Peplus		1	5	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.6	E.Pe.8	E.pep-000.006	Peplus		1	6	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.7	E.Pe.8	E.pep-000.006	Peplus		1	7	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.8	E.Pe.8	E.pep-000.006	Peplus		1	8	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.9	E.Pe.8	E.pep-000.006	Peplus		1	9	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.1.10	E.Pe.8	E.pep-000.006	Peplus		1	10	E.Pe.8.1	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	37	days
+Pe.8.2.1	E.Pe.8	E.pep-000.006	Peplus		2	1	E.Pe.8.2	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	47	days
+Pe.8.2.2	E.Pe.8	E.pep-000.006	Peplus		2	2	E.Pe.8.2	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	47	days
+Pe.8.2.3	E.Pe.8	E.pep-000.006	Peplus		2	3	E.Pe.8.2	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	47	days
+Pe.8.2.4	E.Pe.8	E.pep-000.006	Peplus		2	4	E.Pe.8.2	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	47	days
+Pe.8.2.5	E.Pe.8	E.pep-000.006	Peplus		2	5	E.Pe.8.2	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	47	days
+Pe.8.3.1	E.Pe.8	E.pep-000.006	Peplus		3	1	E.Pe.8.3	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	49	days
+Pe.8.3.2	E.Pe.8	E.pep-000.006	Peplus		3	2	E.Pe.8.3	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	49	days
+Pe.8.3.3	E.Pe.8	E.pep-000.006	Peplus		3	3	E.Pe.8.3	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	49	days
+Pe.8.3.4	E.Pe.8	E.pep-000.006	Peplus		3	4	E.Pe.8.3	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	49	days
+Pe.8.3.5	E.Pe.8	E.pep-000.006	Peplus		3	5	E.Pe.8.3	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	49	days
+Pe.8.4.1	E.Pe.8	E.pep-000.006	Peplus		4	1	E.Pe.8.4	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	51	days
+Pe.8.4.2	E.Pe.8	E.pep-000.006	Peplus		4	2	E.Pe.8.4	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	51	days
+Pe.8.4.3	E.Pe.8	E.pep-000.006	Peplus		4	3	E.Pe.8.4	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	51	days
+Pe.8.4.4	E.Pe.8	E.pep-000.006	Peplus		4	4	E.Pe.8.4	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	51	days
+Pe.8.4.5	E.Pe.8	E.pep-000.006	Peplus		4	5	E.Pe.8.4	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	51	days
+Pe.8.5.1	E.Pe.8	E.pep-000.006	Peplus		5	1	E.Pe.8.5	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	52	days
+Pe.8.5.2	E.Pe.8	E.pep-000.006	Peplus		5	2	E.Pe.8.5	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	52	days
+Pe.8.5.3	E.Pe.8	E.pep-000.006	Peplus		5	3	E.Pe.8.5	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	52	days
+Pe.8.5.4	E.Pe.8	E.pep-000.006	Peplus		5	4	E.Pe.8.5	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	52	days
+Pe.8.5.5	E.Pe.8	E.pep-000.006	Peplus		5	5	E.Pe.8.5	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	52	days
+Pe.8.6.1	E.Pe.8	E.pep-000.006	Peplus		6	1	E.Pe.8.6	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	53	days
+Pe.8.6.2	E.Pe.8	E.pep-000.006	Peplus		6	2	E.Pe.8.6	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	53	days
+Pe.8.6.3	E.Pe.8	E.pep-000.006	Peplus		6	3	E.Pe.8.6	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	53	days
+Pe.8.6.4	E.Pe.8	E.pep-000.006	Peplus		6	4	E.Pe.8.6	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	53	days
+Pe.8.6.5	E.Pe.8	E.pep-000.006	Peplus		6	5	E.Pe.8.6	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	53	days
+Pe.8.7.1	E.Pe.8	E.pep-000.006	Peplus		7	1	E.Pe.8.7	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	55	days
+Pe.8.7.2	E.Pe.8	E.pep-000.006	Peplus		7	2	E.Pe.8.7	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	55	days
+Pe.8.7.3	E.Pe.8	E.pep-000.006	Peplus		7	3	E.Pe.8.7	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	55	days
+Pe.8.7.4	E.Pe.8	E.pep-000.006	Peplus		7	4	E.Pe.8.7	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	55	days
+Pe.8.7.5	E.Pe.8	E.pep-000.006	Peplus		7	5	E.Pe.8.7	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	55	days
+Pe.8.8.1	E.Pe.8	E.pep-000.006	Peplus		8	1	E.Pe.8.8	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	56	days
+Pe.8.8.2	E.Pe.8	E.pep-000.006	Peplus		8	2	E.Pe.8.8	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	56	days
+Pe.8.8.3	E.Pe.8	E.pep-000.006	Peplus		8	3	E.Pe.8.8	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	56	days
+Pe.8.8.4	E.Pe.8	E.pep-000.006	Peplus		8	4	E.Pe.8.8	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	56	days
+Pe.8.8.5	E.Pe.8	E.pep-000.006	Peplus		8	5	E.Pe.8.8	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	56	days
+Pe.8.9.1	E.Pe.8	E.pep-000.006	Peplus		9	1	E.Pe.8.9	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	57	days
+Pe.8.9.2	E.Pe.8	E.pep-000.006	Peplus		9	2	E.Pe.8.9	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	57	days
+Pe.8.9.3	E.Pe.8	E.pep-000.006	Peplus		9	3	E.Pe.8.9	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	57	days
+Pe.8.9.4	E.Pe.8	E.pep-000.006	Peplus		9	4	E.Pe.8.9	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	57	days
+Pe.8.9.5	E.Pe.8	E.pep-000.006	Peplus		9	5	E.Pe.8.9	Stress	None	0	Duration	0	h	Recovery	0	days	SamplingTime	57	days
+Pe.8.10.1	E.Pe.8	E.pep-000.006	Peplus		10	1	E.Pe.8.10	Stress	Drought	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.10.2	E.Pe.8	E.pep-000.006	Peplus		10	2	E.Pe.8.10	Stress	Drought	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.10.3	E.Pe.8	E.pep-000.006	Peplus		10	3	E.Pe.8.10	Stress	Drought	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.10.4	E.Pe.8	E.pep-000.006	Peplus		10	4	E.Pe.8.10	Stress	Drought	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.10.5	E.Pe.8	E.pep-000.006	Peplus		10	5	E.Pe.8.10	Stress	Drought	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.11.1	E.Pe.8	E.pep-000.006	Peplus		11	1	E.Pe.8.11	Stress	Drought	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.11.2	E.Pe.8	E.pep-000.006	Peplus		11	2	E.Pe.8.11	Stress	Drought	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.11.3	E.Pe.8	E.pep-000.006	Peplus		11	3	E.Pe.8.11	Stress	Drought	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.11.4	E.Pe.8	E.pep-000.006	Peplus		11	4	E.Pe.8.11	Stress	Drought	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.11.5	E.Pe.8	E.pep-000.006	Peplus		11	5	E.Pe.8.11	Stress	Drought	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.12.1	E.Pe.8	E.pep-000.006	Peplus		12	1	E.Pe.8.12	Stress	Drought	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.12.2	E.Pe.8	E.pep-000.006	Peplus		12	2	E.Pe.8.12	Stress	Drought	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.12.3	E.Pe.8	E.pep-000.006	Peplus		12	3	E.Pe.8.12	Stress	Drought	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.12.4	E.Pe.8	E.pep-000.006	Peplus		12	4	E.Pe.8.12	Stress	Drought	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.12.5	E.Pe.8	E.pep-000.006	Peplus		12	5	E.Pe.8.12	Stress	Drought	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.13.1	E.Pe.8	E.pep-000.006	Peplus		13	1	E.Pe.8.13	Stress	Drought	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.13.2	E.Pe.8	E.pep-000.006	Peplus		13	2	E.Pe.8.13	Stress	Drought	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.13.3	E.Pe.8	E.pep-000.006	Peplus		13	3	E.Pe.8.13	Stress	Drought	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.13.4	E.Pe.8	E.pep-000.006	Peplus		13	4	E.Pe.8.13	Stress	Drought	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.13.5	E.Pe.8	E.pep-000.006	Peplus		13	5	E.Pe.8.13	Stress	Drought	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.14.1	E.Pe.8	E.pep-000.006	Peplus		14	1	E.Pe.8.14	Stress	Drought	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.14.2	E.Pe.8	E.pep-000.006	Peplus		14	2	E.Pe.8.14	Stress	Drought	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.14.3	E.Pe.8	E.pep-000.006	Peplus		14	3	E.Pe.8.14	Stress	Drought	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.14.4	E.Pe.8	E.pep-000.006	Peplus		14	4	E.Pe.8.14	Stress	Drought	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.14.5	E.Pe.8	E.pep-000.006	Peplus		14	5	E.Pe.8.14	Stress	Drought	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.15.1	E.Pe.8	E.pep-000.006	Peplus		15	1	E.Pe.8.15	Stress	Drought	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.15.2	E.Pe.8	E.pep-000.006	Peplus		15	2	E.Pe.8.15	Stress	Drought	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.15.3	E.Pe.8	E.pep-000.006	Peplus		15	3	E.Pe.8.15	Stress	Drought	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.15.4	E.Pe.8	E.pep-000.006	Peplus		15	4	E.Pe.8.15	Stress	Drought	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.15.5	E.Pe.8	E.pep-000.006	Peplus		15	5	E.Pe.8.15	Stress	Drought	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.16.1	E.Pe.8	E.pep-000.006	Peplus		16	1	E.Pe.8.16	Stress	Drought	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.16.2	E.Pe.8	E.pep-000.006	Peplus		16	2	E.Pe.8.16	Stress	Drought	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.16.3	E.Pe.8	E.pep-000.006	Peplus		16	3	E.Pe.8.16	Stress	Drought	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.16.4	E.Pe.8	E.pep-000.006	Peplus		16	4	E.Pe.8.16	Stress	Drought	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.16.5	E.Pe.8	E.pep-000.006	Peplus		16	5	E.Pe.8.16	Stress	Drought	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.17.1	E.Pe.8	E.pep-000.006	Peplus		17	1	E.Pe.8.17	Stress	Drought	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.17.2	E.Pe.8	E.pep-000.006	Peplus		17	2	E.Pe.8.17	Stress	Drought	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.17.3	E.Pe.8	E.pep-000.006	Peplus		17	3	E.Pe.8.17	Stress	Drought	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.17.4	E.Pe.8	E.pep-000.006	Peplus		17	4	E.Pe.8.17	Stress	Drought	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.17.5	E.Pe.8	E.pep-000.006	Peplus		17	5	E.Pe.8.17	Stress	Drought	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.18.1	E.Pe.8	E.pep-000.006	Peplus		18	1	E.Pe.8.18	Stress	Drought	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.18.2	E.Pe.8	E.pep-000.006	Peplus		18	2	E.Pe.8.18	Stress	Drought	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.18.3	E.Pe.8	E.pep-000.006	Peplus		18	3	E.Pe.8.18	Stress	Drought	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.18.4	E.Pe.8	E.pep-000.006	Peplus		18	4	E.Pe.8.18	Stress	Drought	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.18.5	E.Pe.8	E.pep-000.006	Peplus		18	5	E.Pe.8.18	Stress	Drought	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.19.1	E.Pe.8	E.pep-000.006	Peplus		19	1	E.Pe.8.19	Stress	Heat	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.19.2	E.Pe.8	E.pep-000.006	Peplus		19	2	E.Pe.8.19	Stress	Heat	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.19.3	E.Pe.8	E.pep-000.006	Peplus		19	3	E.Pe.8.19	Stress	Heat	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.19.4	E.Pe.8	E.pep-000.006	Peplus		19	4	E.Pe.8.19	Stress	Heat	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.19.5	E.Pe.8	E.pep-000.006	Peplus		19	5	E.Pe.8.19	Stress	Heat	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.20.1	E.Pe.8	E.pep-000.006	Peplus		20	1	E.Pe.8.20	Stress	Heat	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.20.2	E.Pe.8	E.pep-000.006	Peplus		20	2	E.Pe.8.20	Stress	Heat	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.20.3	E.Pe.8	E.pep-000.006	Peplus		20	3	E.Pe.8.20	Stress	Heat	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.20.4	E.Pe.8	E.pep-000.006	Peplus		20	4	E.Pe.8.20	Stress	Heat	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.20.5	E.Pe.8	E.pep-000.006	Peplus		20	5	E.Pe.8.20	Stress	Heat	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.21.1	E.Pe.8	E.pep-000.006	Peplus		21	1	E.Pe.8.21	Stress	Heat	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.21.2	E.Pe.8	E.pep-000.006	Peplus		21	2	E.Pe.8.21	Stress	Heat	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.21.3	E.Pe.8	E.pep-000.006	Peplus		21	3	E.Pe.8.21	Stress	Heat	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.21.4	E.Pe.8	E.pep-000.006	Peplus		21	4	E.Pe.8.21	Stress	Heat	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.21.5	E.Pe.8	E.pep-000.006	Peplus		21	5	E.Pe.8.21	Stress	Heat	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.22.1	E.Pe.8	E.pep-000.006	Peplus		22	1	E.Pe.8.22	Stress	Heat	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.22.2	E.Pe.8	E.pep-000.006	Peplus		22	2	E.Pe.8.22	Stress	Heat	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.22.3	E.Pe.8	E.pep-000.006	Peplus		22	3	E.Pe.8.22	Stress	Heat	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.22.4	E.Pe.8	E.pep-000.006	Peplus		22	4	E.Pe.8.22	Stress	Heat	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.22.5	E.Pe.8	E.pep-000.006	Peplus		22	5	E.Pe.8.22	Stress	Heat	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.23.1	E.Pe.8	E.pep-000.006	Peplus		23	1	E.Pe.8.23	Stress	Heat	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.23.2	E.Pe.8	E.pep-000.006	Peplus		23	2	E.Pe.8.23	Stress	Heat	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.23.3	E.Pe.8	E.pep-000.006	Peplus		23	3	E.Pe.8.23	Stress	Heat	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.23.4	E.Pe.8	E.pep-000.006	Peplus		23	4	E.Pe.8.23	Stress	Heat	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.23.5	E.Pe.8	E.pep-000.006	Peplus		23	5	E.Pe.8.23	Stress	Heat	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.24.1	E.Pe.8	E.pep-000.006	Peplus		24	1	E.Pe.8.24	Stress	Heat	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.24.2	E.Pe.8	E.pep-000.006	Peplus		24	2	E.Pe.8.24	Stress	Heat	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.24.3	E.Pe.8	E.pep-000.006	Peplus		24	3	E.Pe.8.24	Stress	Heat	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.24.4	E.Pe.8	E.pep-000.006	Peplus		24	4	E.Pe.8.24	Stress	Heat	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.24.5	E.Pe.8	E.pep-000.006	Peplus		24	5	E.Pe.8.24	Stress	Heat	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.25.1	E.Pe.8	E.pep-000.006	Peplus		25	1	E.Pe.8.25	Stress	Heat	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.25.2	E.Pe.8	E.pep-000.006	Peplus		25	2	E.Pe.8.25	Stress	Heat	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.25.3	E.Pe.8	E.pep-000.006	Peplus		25	3	E.Pe.8.25	Stress	Heat	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.25.4	E.Pe.8	E.pep-000.006	Peplus		25	4	E.Pe.8.25	Stress	Heat	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.25.5	E.Pe.8	E.pep-000.006	Peplus		25	5	E.Pe.8.25	Stress	Heat	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.26.1	E.Pe.8	E.pep-000.006	Peplus		26	1	E.Pe.8.26	Stress	Heat	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.26.2	E.Pe.8	E.pep-000.006	Peplus		26	2	E.Pe.8.26	Stress	Heat	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.26.3	E.Pe.8	E.pep-000.006	Peplus		26	3	E.Pe.8.26	Stress	Heat	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.26.4	E.Pe.8	E.pep-000.006	Peplus		26	4	E.Pe.8.26	Stress	Heat	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.26.5	E.Pe.8	E.pep-000.006	Peplus		26	5	E.Pe.8.26	Stress	Heat	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.27.1	E.Pe.8	E.pep-000.006	Peplus		27	1	E.Pe.8.27	Stress	Heat	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.27.2	E.Pe.8	E.pep-000.006	Peplus		27	2	E.Pe.8.27	Stress	Heat	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.27.3	E.Pe.8	E.pep-000.006	Peplus		27	3	E.Pe.8.27	Stress	Heat	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.27.4	E.Pe.8	E.pep-000.006	Peplus		27	4	E.Pe.8.27	Stress	Heat	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.27.5	E.Pe.8	E.pep-000.006	Peplus		27	5	E.Pe.8.27	Stress	Heat	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.28.1	E.Pe.8	E.pep-000.006	Peplus		28	1	E.Pe.8.28	Stress	Cold	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.28.2	E.Pe.8	E.pep-000.006	Peplus		28	2	E.Pe.8.28	Stress	Cold	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.28.3	E.Pe.8	E.pep-000.006	Peplus		28	3	E.Pe.8.28	Stress	Cold	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.28.4	E.Pe.8	E.pep-000.006	Peplus		28	4	E.Pe.8.28	Stress	Cold	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.28.5	E.Pe.8	E.pep-000.006	Peplus		28	5	E.Pe.8.28	Stress	Cold	0	Duration	24	h	Recovery	1	days	SamplingTime	49	days
+Pe.8.29.1	E.Pe.8	E.pep-000.006	Peplus		29	1	E.Pe.8.29	Stress	Cold	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.29.2	E.Pe.8	E.pep-000.006	Peplus		29	2	E.Pe.8.29	Stress	Cold	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.29.3	E.Pe.8	E.pep-000.006	Peplus		29	3	E.Pe.8.29	Stress	Cold	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.29.4	E.Pe.8	E.pep-000.006	Peplus		29	4	E.Pe.8.29	Stress	Cold	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.29.5	E.Pe.8	E.pep-000.006	Peplus		29	5	E.Pe.8.29	Stress	Cold	0	Duration	24	h	Recovery	3	days	SamplingTime	51	days
+Pe.8.30.1	E.Pe.8	E.pep-000.006	Peplus		30	1	E.Pe.8.30	Stress	Cold	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.30.2	E.Pe.8	E.pep-000.006	Peplus		30	2	E.Pe.8.30	Stress	Cold	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.30.3	E.Pe.8	E.pep-000.006	Peplus		30	3	E.Pe.8.30	Stress	Cold	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.30.4	E.Pe.8	E.pep-000.006	Peplus		30	4	E.Pe.8.30	Stress	Cold	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.30.5	E.Pe.8	E.pep-000.006	Peplus		30	5	E.Pe.8.30	Stress	Cold	0	Duration	24	h	Recovery	7	days	SamplingTime	55	days
+Pe.8.31.1	E.Pe.8	E.pep-000.006	Peplus		31	1	E.Pe.8.31	Stress	Cold	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.31.2	E.Pe.8	E.pep-000.006	Peplus		31	2	E.Pe.8.31	Stress	Cold	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.31.3	E.Pe.8	E.pep-000.006	Peplus		31	3	E.Pe.8.31	Stress	Cold	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.31.4	E.Pe.8	E.pep-000.006	Peplus		31	4	E.Pe.8.31	Stress	Cold	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.31.5	E.Pe.8	E.pep-000.006	Peplus		31	5	E.Pe.8.31	Stress	Cold	0	Duration	48	h	Recovery	1	days	SamplingTime	50	days
+Pe.8.32.1	E.Pe.8	E.pep-000.006	Peplus		32	1	E.Pe.8.32	Stress	Cold	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.32.2	E.Pe.8	E.pep-000.006	Peplus		32	2	E.Pe.8.32	Stress	Cold	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.32.3	E.Pe.8	E.pep-000.006	Peplus		32	3	E.Pe.8.32	Stress	Cold	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.32.4	E.Pe.8	E.pep-000.006	Peplus		32	4	E.Pe.8.32	Stress	Cold	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.32.5	E.Pe.8	E.pep-000.006	Peplus		32	5	E.Pe.8.32	Stress	Cold	0	Duration	48	h	Recovery	3	days	SamplingTime	52	days
+Pe.8.33.1	E.Pe.8	E.pep-000.006	Peplus		33	1	E.Pe.8.33	Stress	Cold	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.33.2	E.Pe.8	E.pep-000.006	Peplus		33	2	E.Pe.8.33	Stress	Cold	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.33.3	E.Pe.8	E.pep-000.006	Peplus		33	3	E.Pe.8.33	Stress	Cold	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.33.4	E.Pe.8	E.pep-000.006	Peplus		33	4	E.Pe.8.33	Stress	Cold	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.33.5	E.Pe.8	E.pep-000.006	Peplus		33	5	E.Pe.8.33	Stress	Cold	0	Duration	48	h	Recovery	7	days	SamplingTime	56	days
+Pe.8.34.1	E.Pe.8	E.pep-000.006	Peplus		34	1	E.Pe.8.34	Stress	Cold	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.34.2	E.Pe.8	E.pep-000.006	Peplus		34	2	E.Pe.8.34	Stress	Cold	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.34.3	E.Pe.8	E.pep-000.006	Peplus		34	3	E.Pe.8.34	Stress	Cold	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.34.4	E.Pe.8	E.pep-000.006	Peplus		34	4	E.Pe.8.34	Stress	Cold	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.34.5	E.Pe.8	E.pep-000.006	Peplus		34	5	E.Pe.8.34	Stress	Cold	0	Duration	72	h	Recovery	1	days	SamplingTime	51	days
+Pe.8.35.1	E.Pe.8	E.pep-000.006	Peplus		35	1	E.Pe.8.35	Stress	Cold	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.35.2	E.Pe.8	E.pep-000.006	Peplus		35	2	E.Pe.8.35	Stress	Cold	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.35.3	E.Pe.8	E.pep-000.006	Peplus		35	3	E.Pe.8.35	Stress	Cold	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.35.4	E.Pe.8	E.pep-000.006	Peplus		35	4	E.Pe.8.35	Stress	Cold	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.35.5	E.Pe.8	E.pep-000.006	Peplus		35	5	E.Pe.8.35	Stress	Cold	0	Duration	72	h	Recovery	3	days	SamplingTime	53	days
+Pe.8.36.1	E.Pe.8	E.pep-000.006	Peplus		36	1	E.Pe.8.36	Stress	Cold	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.36.2	E.Pe.8	E.pep-000.006	Peplus		36	2	E.Pe.8.36	Stress	Cold	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.36.3	E.Pe.8	E.pep-000.006	Peplus		36	3	E.Pe.8.36	Stress	Cold	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.36.4	E.Pe.8	E.pep-000.006	Peplus		36	4	E.Pe.8.36	Stress	Cold	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.36.5	E.Pe.8	E.pep-000.006	Peplus		36	5	E.Pe.8.36	Stress	Cold	0	Duration	72	h	Recovery	7	days	SamplingTime	57	days
+Pe.8.37.1	E.Pe.8	E.pep-000.006	Peplus		37	1	E.Pe.8.37	Stress	Wound	0	Duration	0	h	Recovery	1	days	SamplingTime	48	days
+Pe.8.37.2	E.Pe.8	E.pep-000.006	Peplus		37	2	E.Pe.8.37	Stress	Wound	0	Duration	0	h	Recovery	1	days	SamplingTime	48	days
+Pe.8.37.3	E.Pe.8	E.pep-000.006	Peplus		37	3	E.Pe.8.37	Stress	Wound	0	Duration	0	h	Recovery	1	days	SamplingTime	48	days
+Pe.8.37.4	E.Pe.8	E.pep-000.006	Peplus		37	4	E.Pe.8.37	Stress	Wound	0	Duration	0	h	Recovery	1	days	SamplingTime	48	days
+Pe.8.37.5	E.Pe.8	E.pep-000.006	Peplus		37	5	E.Pe.8.37	Stress	Wound	0	Duration	0	h	Recovery	1	days	SamplingTime	48	days
+Pe.8.38.1	E.Pe.8	E.pep-000.006	Peplus		38	1	E.Pe.8.38	Stress	Wound	0	Duration	0	h	Recovery	3	days	SamplingTime	50	days
+Pe.8.38.2	E.Pe.8	E.pep-000.006	Peplus		38	2	E.Pe.8.38	Stress	Wound	0	Duration	0	h	Recovery	3	days	SamplingTime	50	days
+Pe.8.38.3	E.Pe.8	E.pep-000.006	Peplus		38	3	E.Pe.8.38	Stress	Wound	0	Duration	0	h	Recovery	3	days	SamplingTime	50	days
+Pe.8.38.4	E.Pe.8	E.pep-000.006	Peplus		38	4	E.Pe.8.38	Stress	Wound	0	Duration	0	h	Recovery	3	days	SamplingTime	50	days
+Pe.8.38.5	E.Pe.8	E.pep-000.006	Peplus		38	5	E.Pe.8.38	Stress	Wound	0	Duration	0	h	Recovery	3	days	SamplingTime	50	days
+Pe.8.39.1	E.Pe.8	E.pep-000.006	Peplus		39	1	E.Pe.8.39	Stress	Wound	0	Duration	0	h	Recovery	7	days	SamplingTime	54	days
+Pe.8.39.2	E.Pe.8	E.pep-000.006	Peplus		39	2	E.Pe.8.39	Stress	Wound	0	Duration	0	h	Recovery	7	days	SamplingTime	54	days
+Pe.8.39.3	E.Pe.8	E.pep-000.006	Peplus		39	3	E.Pe.8.39	Stress	Wound	0	Duration	0	h	Recovery	7	days	SamplingTime	54	days
+Pe.8.39.4	E.Pe.8	E.pep-000.006	Peplus		39	4	E.Pe.8.39	Stress	Wound	0	Duration	0	h	Recovery	7	days	SamplingTime	54	days
+Pe.8.39.5	E.Pe.8	E.pep-000.006	Peplus		39	5	E.Pe.8.39	Stress	Wound	0	Duration	0	h	Recovery	7	days	SamplingTime	54	days
+Pe.8.40.1	E.Pe.8	E.pep-000.006	Peplus		40	1	E.Pe.8.40	Stress	Wound	0	Duration	0	h	Recovery	14	days	SamplingTime	61	days
+Pe.8.40.2	E.Pe.8	E.pep-000.006	Peplus		40	2	E.Pe.8.40	Stress	Wound	0	Duration	0	h	Recovery	14	days	SamplingTime	61	days
+Pe.8.40.3	E.Pe.8	E.pep-000.006	Peplus		40	3	E.Pe.8.40	Stress	Wound	0	Duration	0	h	Recovery	14	days	SamplingTime	61	days
+Pe.8.40.4	E.Pe.8	E.pep-000.006	Peplus		40	4	E.Pe.8.40	Stress	Wound	0	Duration	0	h	Recovery	14	days	SamplingTime	61	days
+Pe.8.40.5	E.Pe.8	E.pep-000.006	Peplus		40	5	E.Pe.8.40	Stress	Wound	0	Duration	0	h	Recovery	14	days	SamplingTime	61	days
+Pe.9.1.1	E.Pe.9	E.pep-000.006	Peplus		1	1	E.Pe.9.1	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	3	gr/L
+Pe.9.1.2	E.Pe.9	E.pep-000.006	Peplus		1	2	E.Pe.9.1	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	3	gr/L
+Pe.9.1.3	E.Pe.9	E.pep-000.006	Peplus		1	3	E.Pe.9.1	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	3	gr/L
+Pe.9.1.4	E.Pe.9	E.pep-000.006	Peplus		1	4	E.Pe.9.1	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	3	gr/L
+Pe.9.1.5	E.Pe.9	E.pep-000.006	Peplus		1	5	E.Pe.9.1	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	3	gr/L
+Pe.9.2.1	E.Pe.9	E.pep-000.006	Peplus		2	1	E.Pe.9.2	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	6	gr/L
+Pe.9.2.2	E.Pe.9	E.pep-000.006	Peplus		2	2	E.Pe.9.2	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	6	gr/L
+Pe.9.2.3	E.Pe.9	E.pep-000.006	Peplus		2	3	E.Pe.9.2	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	6	gr/L
+Pe.9.2.4	E.Pe.9	E.pep-000.006	Peplus		2	4	E.Pe.9.2	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	6	gr/L
+Pe.9.2.5	E.Pe.9	E.pep-000.006	Peplus		2	5	E.Pe.9.2	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	6	gr/L
+Pe.9.3.1	E.Pe.9	E.pep-000.006	Peplus		3	1	E.Pe.9.3	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.3.2	E.Pe.9	E.pep-000.006	Peplus		3	2	E.Pe.9.3	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.3.3	E.Pe.9	E.pep-000.006	Peplus		3	3	E.Pe.9.3	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.3.4	E.Pe.9	E.pep-000.006	Peplus		3	4	E.Pe.9.3	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.3.5	E.Pe.9	E.pep-000.006	Peplus		3	5	E.Pe.9.3	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.4.1	E.Pe.9	E.pep-000.006	Peplus		4	1	E.Pe.9.4	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	24	gr/L
+Pe.9.4.2	E.Pe.9	E.pep-000.006	Peplus		4	2	E.Pe.9.4	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	24	gr/L
+Pe.9.4.3	E.Pe.9	E.pep-000.006	Peplus		4	3	E.Pe.9.4	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	24	gr/L
+Pe.9.4.4	E.Pe.9	E.pep-000.006	Peplus		4	4	E.Pe.9.4	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	24	gr/L
+Pe.9.4.5	E.Pe.9	E.pep-000.006	Peplus		4	5	E.Pe.9.4	Irrigation	Wick	0	Substrate	Bril/ArgexF	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	24	gr/L
+Pe.9.5.1	E.Pe.9	E.pep-000.006	Peplus		5	1	E.Pe.9.5	Irrigation	AeroFlo	0	Substrate	ArgexB	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.5.2	E.Pe.9	E.pep-000.006	Peplus		5	2	E.Pe.9.5	Irrigation	AeroFlo	0	Substrate	ArgexB	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.5.3	E.Pe.9	E.pep-000.006	Peplus		5	3	E.Pe.9.5	Irrigation	AeroFlo	0	Substrate	ArgexB	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.5.4	E.Pe.9	E.pep-000.006	Peplus		5	4	E.Pe.9.5	Irrigation	AeroFlo	0	Substrate	ArgexB	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.5.5	E.Pe.9	E.pep-000.006	Peplus		5	5	E.Pe.9.5	Irrigation	AeroFlo	0	Substrate	ArgexB	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.6.1	E.Pe.9	E.pep-000.006	Peplus		6	1	E.Pe.9.6	Irrigation	AeroFlo	0	Substrate	CocoChip	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.6.2	E.Pe.9	E.pep-000.006	Peplus		6	2	E.Pe.9.6	Irrigation	AeroFlo	0	Substrate	CocoChip	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.6.3	E.Pe.9	E.pep-000.006	Peplus		6	3	E.Pe.9.6	Irrigation	AeroFlo	0	Substrate	CocoChip	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.6.4	E.Pe.9	E.pep-000.006	Peplus		6	4	E.Pe.9.6	Irrigation	AeroFlo	0	Substrate	CocoChip	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.6.5	E.Pe.9	E.pep-000.006	Peplus		6	5	E.Pe.9.6	Irrigation	AeroFlo	0	Substrate	CocoChip	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.7.1	E.Pe.9	E.pep-000.006	Peplus		7	1	E.Pe.9.7	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+2	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.7.2	E.Pe.9	E.pep-000.006	Peplus		7	2	E.Pe.9.7	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+2	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.7.3	E.Pe.9	E.pep-000.006	Peplus		7	3	E.Pe.9.7	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+2	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.7.4	E.Pe.9	E.pep-000.006	Peplus		7	4	E.Pe.9.7	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+2	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.7.5	E.Pe.9	E.pep-000.006	Peplus		7	5	E.Pe.9.7	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+2	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.8.1	E.Pe.9	E.pep-000.006	Peplus		8	1	E.Pe.9.8	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+1	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.8.2	E.Pe.9	E.pep-000.006	Peplus		8	2	E.Pe.9.8	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+1	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.8.3	E.Pe.9	E.pep-000.006	Peplus		8	3	E.Pe.9.8	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+1	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.8.4	E.Pe.9	E.pep-000.006	Peplus		8	4	E.Pe.9.8	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+1	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.8.5	E.Pe.9	E.pep-000.006	Peplus		8	5	E.Pe.9.8	Irrigation	AeroFlo	0	Substrate	Coco/Argex 1+1	0	Fertiliser	FloraSeries	0	FertiliserLevel	1200	mS
+Pe.9.9.1	E.Pe.9	E.pep-000.006	Peplus		9	1	E.Pe.9.9	Irrigation	Ebb&Grow	0	Substrate	Bril/ArgexF 4+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.9.2	E.Pe.9	E.pep-000.006	Peplus		9	2	E.Pe.9.9	Irrigation	Ebb&Grow	0	Substrate	Bril/ArgexF 4+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.9.3	E.Pe.9	E.pep-000.006	Peplus		9	3	E.Pe.9.9	Irrigation	Ebb&Grow	0	Substrate	Bril/ArgexF 4+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.9.4	E.Pe.9	E.pep-000.006	Peplus		9	4	E.Pe.9.9	Irrigation	Ebb&Grow	0	Substrate	Bril/ArgexF 4+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.9.5	E.Pe.9	E.pep-000.006	Peplus		9	5	E.Pe.9.9	Irrigation	Ebb&Grow	0	Substrate	Bril/ArgexF 4+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.10.1	E.Pe.9	E.pep-000.006	Peplus		10	1	E.Pe.9.10	Irrigation	Ebb&Grow	0	Substrate	CocoChip	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.10.2	E.Pe.9	E.pep-000.006	Peplus		10	2	E.Pe.9.10	Irrigation	Ebb&Grow	0	Substrate	CocoChip	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.10.3	E.Pe.9	E.pep-000.006	Peplus		10	3	E.Pe.9.10	Irrigation	Ebb&Grow	0	Substrate	CocoChip	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.10.4	E.Pe.9	E.pep-000.006	Peplus		10	4	E.Pe.9.10	Irrigation	Ebb&Grow	0	Substrate	CocoChip	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.10.5	E.Pe.9	E.pep-000.006	Peplus		10	5	E.Pe.9.10	Irrigation	Ebb&Grow	0	Substrate	CocoChip	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.11.1	E.Pe.9	E.pep-000.006	Peplus		11	1	E.Pe.9.11	Irrigation	Ebb&Grow	0	Substrate	CocoChip+Peat 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.11.2	E.Pe.9	E.pep-000.006	Peplus		11	2	E.Pe.9.11	Irrigation	Ebb&Grow	0	Substrate	CocoChip+Peat 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.11.3	E.Pe.9	E.pep-000.006	Peplus		11	3	E.Pe.9.11	Irrigation	Ebb&Grow	0	Substrate	CocoChip+Peat 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.11.4	E.Pe.9	E.pep-000.006	Peplus		11	4	E.Pe.9.11	Irrigation	Ebb&Grow	0	Substrate	CocoChip+Peat 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.11.5	E.Pe.9	E.pep-000.006	Peplus		11	5	E.Pe.9.11	Irrigation	Ebb&Grow	0	Substrate	CocoChip+Peat 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.12.1	E.Pe.9	E.pep-000.006	Peplus		12	1	E.Pe.9.12	Irrigation	Ebb&Grow	0	Substrate	CocoChip/ArgexF 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.12.2	E.Pe.9	E.pep-000.006	Peplus		12	2	E.Pe.9.12	Irrigation	Ebb&Grow	0	Substrate	CocoChip/ArgexF 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.12.3	E.Pe.9	E.pep-000.006	Peplus		12	3	E.Pe.9.12	Irrigation	Ebb&Grow	0	Substrate	CocoChip/ArgexF 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.12.4	E.Pe.9	E.pep-000.006	Peplus		12	4	E.Pe.9.12	Irrigation	Ebb&Grow	0	Substrate	CocoChip/ArgexF 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.12.5	E.Pe.9	E.pep-000.006	Peplus		12	5	E.Pe.9.12	Irrigation	Ebb&Grow	0	Substrate	CocoChip/ArgexF 3+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.13.1	E.Pe.9	E.pep-000.006	Peplus		13	1	E.Pe.9.13	Irrigation	Ebb&Grow	0	Substrate	CocoChip/Peat/ArgexF 2+1+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.13.2	E.Pe.9	E.pep-000.006	Peplus		13	2	E.Pe.9.13	Irrigation	Ebb&Grow	0	Substrate	CocoChip/Peat/ArgexF 2+1+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.13.3	E.Pe.9	E.pep-000.006	Peplus		13	3	E.Pe.9.13	Irrigation	Ebb&Grow	0	Substrate	CocoChip/Peat/ArgexF 2+1+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.13.4	E.Pe.9	E.pep-000.006	Peplus		13	4	E.Pe.9.13	Irrigation	Ebb&Grow	0	Substrate	CocoChip/Peat/ArgexF 2+1+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.9.13.5	E.Pe.9	E.pep-000.006	Peplus		13	5	E.Pe.9.13	Irrigation	Ebb&Grow	0	Substrate	CocoChip/Peat/ArgexF 2+1+1	0	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+St.1.1.1	E.St.1	E.str-000.001	Stricta	Golden Foam	1	1	E.St.1.1	0	0	0	0	0	0	0	0	0	0	0	0
+Ma.1.1.1	E.Ma.1	E.mar-000.001	Marginata		1	1	E.Ma.1.1	0	0	0	0	0	0	0	0	0	0	0	0
+Gr.1.1.1	E.Gr.1	NA	Griffithii		1	1	E.Gr.1.1	0	0	0	0	0	0	0	0	0	0	0	0
+Pe.10.1.1	E.Pe.10	E.pep-000.006	Peplus		1	1	E.Pe.10.1	Substrate	ZipGrow	0	0	0	0	0	0	0	0	0	0
+Pe.10.2.1	E.Pe.10	E.pep-000.006	Peplus		2	1	E.Pe.10.2	Substrate	Standard	0	0	0	0	0	0	0	0	0	0
+Cy.1.1.1	E.Cy.1	E.cyp-000.001	Cyparissias		1	1	E.Cy.1.1	0	0	0	0	0	0	0	0	0	0	0	0
+Pe.12.1.1	E.Pe.12	E.pep-000.008	Peplus		1	1	E.Pe.12.1	CultureSystem	Ebb&Grow	0	Substrate	Bril+argex	4+1	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/L
+Pe.12.2.1	E.Pe.12	E.pep-000.008	Peplus		2	1	E.Pe.12.2	CultureSystem	Aeroflo	0	Substrate	Feutre+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.2.2	E.Pe.12	E.pep-000.008	Peplus		2	2	E.Pe.12.2	CultureSystem	Aeroflo	0	Substrate	Feutre+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.2.3	E.Pe.12	E.pep-000.008	Peplus		2	3	E.Pe.12.2	CultureSystem	Aeroflo	0	Substrate	Feutre+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.2.4	E.Pe.12	E.pep-000.008	Peplus		2	4	E.Pe.12.2	CultureSystem	Aeroflo	0	Substrate	Feutre+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.3.1	E.Pe.12	E.pep-000.008	Peplus		3	1	E.Pe.12.3	CultureSystem	Aeroflo	0	Substrate	Coco+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.3.2	E.Pe.12	E.pep-000.008	Peplus		3	2	E.Pe.12.3	CultureSystem	Aeroflo	0	Substrate	Coco+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.3.3	E.Pe.12	E.pep-000.008	Peplus		3	3	E.Pe.12.3	CultureSystem	Aeroflo	0	Substrate	Coco+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.3.4	E.Pe.12	E.pep-000.008	Peplus		3	4	E.Pe.12.3	CultureSystem	Aeroflo	0	Substrate	Coco+bille_argex	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.4.1	E.Pe.12	E.pep-000.008	Peplus		4	1	E.Pe.12.4	CultureSystem	Goponic	0	Substrate	Bril+argex	4+1	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/l
+Pe.12.4.2	E.Pe.12	E.pep-000.008	Peplus		4	2	E.Pe.12.4	CultureSystem	Goponic	0	Substrate	Bril+argex	4+1	Fertiliser	Osmocote8-9M	0	FertiliserLevel	12	gr/l
+Pe.12.5.1	E.Pe.12	E.pep-000.008	Peplus		5	1	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.2	E.Pe.12	E.pep-000.008	Peplus		5	2	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.3	E.Pe.12	E.pep-000.008	Peplus		5	3	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.4	E.Pe.12	E.pep-000.008	Peplus		5	4	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.5	E.Pe.12	E.pep-000.008	Peplus		5	5	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.6	E.Pe.12	E.pep-000.008	Peplus		5	6	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.7	E.Pe.12	E.pep-000.008	Peplus		5	7	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.8	E.Pe.12	E.pep-000.008	Peplus		5	8	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.9	E.Pe.12	E.pep-000.008	Peplus		5	9	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.10	E.Pe.12	E.pep-000.008	Peplus		5	10	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.11	E.Pe.12	E.pep-000.008	Peplus		5	11	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.12	E.Pe.12	E.pep-000.008	Peplus		5	12	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.13	E.Pe.12	E.pep-000.008	Peplus		5	13	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.14	E.Pe.12	E.pep-000.008	Peplus		5	14	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.15	E.Pe.12	E.pep-000.008	Peplus		5	15	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.16	E.Pe.12	E.pep-000.008	Peplus		5	16	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.17	E.Pe.12	E.pep-000.008	Peplus		5	17	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.18	E.Pe.12	E.pep-000.008	Peplus		5	18	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.19	E.Pe.12	E.pep-000.008	Peplus		5	19	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.20	E.Pe.12	E.pep-000.008	Peplus		5	20	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.21	E.Pe.12	E.pep-000.008	Peplus		5	21	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.22	E.Pe.12	E.pep-000.008	Peplus		5	22	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.23	E.Pe.12	E.pep-000.008	Peplus		5	23	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.24	E.Pe.12	E.pep-000.008	Peplus		5	24	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.25	E.Pe.12	E.pep-000.008	Peplus		5	25	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.26	E.Pe.12	E.pep-000.008	Peplus		5	26	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.27	E.Pe.12	E.pep-000.008	Peplus		5	27	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.28	E.Pe.12	E.pep-000.008	Peplus		5	28	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.29	E.Pe.12	E.pep-000.008	Peplus		5	29	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.30	E.Pe.12	E.pep-000.008	Peplus		5	30	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.31	E.Pe.12	E.pep-000.008	Peplus		5	31	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.32	E.Pe.12	E.pep-000.008	Peplus		5	32	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.33	E.Pe.12	E.pep-000.008	Peplus		5	33	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.34	E.Pe.12	E.pep-000.008	Peplus		5	34	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.35	E.Pe.12	E.pep-000.008	Peplus		5	35	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.36	E.Pe.12	E.pep-000.008	Peplus		5	36	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.37	E.Pe.12	E.pep-000.008	Peplus		5	37	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.38	E.Pe.12	E.pep-000.008	Peplus		5	38	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.39	E.Pe.12	E.pep-000.008	Peplus		5	39	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.40	E.Pe.12	E.pep-000.008	Peplus		5	40	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.41	E.Pe.12	E.pep-000.008	Peplus		5	41	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.42	E.Pe.12	E.pep-000.008	Peplus		5	42	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.43	E.Pe.12	E.pep-000.008	Peplus		5	43	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.44	E.Pe.12	E.pep-000.008	Peplus		5	44	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.45	E.Pe.12	E.pep-000.008	Peplus		5	45	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.46	E.Pe.12	E.pep-000.008	Peplus		5	46	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.47	E.Pe.12	E.pep-000.008	Peplus		5	47	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.48	E.Pe.12	E.pep-000.008	Peplus		5	48	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.49	E.Pe.12	E.pep-000.008	Peplus		5	49	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.50	E.Pe.12	E.pep-000.008	Peplus		5	50	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.51	E.Pe.12	E.pep-000.008	Peplus		5	51	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.52	E.Pe.12	E.pep-000.008	Peplus		5	52	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.53	E.Pe.12	E.pep-000.008	Peplus		5	53	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.54	E.Pe.12	E.pep-000.008	Peplus		5	54	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.55	E.Pe.12	E.pep-000.008	Peplus		5	55	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.56	E.Pe.12	E.pep-000.008	Peplus		5	56	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.57	E.Pe.12	E.pep-000.008	Peplus		5	57	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.58	E.Pe.12	E.pep-000.008	Peplus		5	58	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.59	E.Pe.12	E.pep-000.008	Peplus		5	59	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.60	E.Pe.12	E.pep-000.008	Peplus		5	60	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.61	E.Pe.12	E.pep-000.008	Peplus		5	61	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.62	E.Pe.12	E.pep-000.008	Peplus		5	62	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.63	E.Pe.12	E.pep-000.008	Peplus		5	63	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0
+Pe.12.5.64	E.Pe.12	E.pep-000.008	Peplus		5	64	E.Pe.12.5	CultureSystem	ZipGrow	0	0	0	0	Fertiliser	FloraSeries	0	FertiliserLevel	Standard_Program	0

@@ -2,6 +2,9 @@
 
 # Historique
 
+## v0.6 (2019-02-17)
+- ajout des fichiers tableurs pour exercice final
+
 ## v0.5 (2019-02-14)
 - update SQLite tutoriel (suppression des codes bash)
 
